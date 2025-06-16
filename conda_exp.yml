@@ -1,0 +1,41 @@
+name: exp
+dependencies:
+  - pip
+  - python=3.8
+  - readline
+  - pip:
+    - ai2thor==5.0.0
+    - cffi==1.15.1
+    - getch
+    - gym==0.26.2
+    - h5py==3.1.0
+    - imageio
+    - jax
+    - joblib==1.3.2
+    - json5==0.9.14
+    - keras==2.8.0
+    - matplotlib==3.7.3
+    - mmcv==1.1.4
+    - msgpack==1.0.8
+    - multimatch-gaze==0.1.3
+    - nbformat==5.9.2
+    - nest-asyncio==1.5.8
+    - numba
+    - numpy==1.22.0
+    - opencv-python==4.8.0.76
+    - opencv-python-headless==4.9.0.80
+    - pandas==2.0.3
+    - pillow==10.0.1
+    - progressbar2==4.4.2
+    - protobuf==3.20.3
+    - psutil==5.9.5
+    - scikit-image==0.21.0
+    - scikit-learn==0.24.2
+    - scipy==1.10.1
+    - seaborn==0.13.2
+    - sympy==1.12
+    - tifffile
+    - torch==2.0.1 --index-url https://download.pytorch.org/whl/cu118
+    - torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu118
+    - torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+    - tqdm
